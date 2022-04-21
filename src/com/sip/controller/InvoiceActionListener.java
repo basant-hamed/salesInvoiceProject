@@ -137,6 +137,7 @@ public InvoiceActionListener (InvoiceForm frame){
           System.out.println("files read");
         System.out.println("************************ \n Reading Headers \n " + invoiceHeaders);
         System.out.println("************************ \n Reading Lines \n " + lineLines);
+        System.out.println("files read end");
     }    
         InvoiceHeaderTblModel headerTblModel = new InvoiceHeaderTblModel(invoiceHeaders);
         frame.setHeaderTblModel(headerTblModel);

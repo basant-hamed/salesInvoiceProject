@@ -117,8 +117,7 @@ public class InvoiceForm extends javax.swing.JFrame {
         jMenu1.add(loadMenuItem);
 
         saveMenuItem.setText("Save Files");
-        saveMenuItem.addActionListener(new InvoiceActionListener());
-
+        saveMenuItem.addActionListener(actionListener);
         saveMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveMenuItemActionPerformed(evt);

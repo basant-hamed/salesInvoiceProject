@@ -28,7 +28,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveMenuItemActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="saveMenuItem.addActionListener(new InvoiceActionListener());&#xd;&#xa; "/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="saveMenuItem.addActionListener(actionListener);"/>
               </AuxValues>
             </MenuItem>
           </SubComponents>
